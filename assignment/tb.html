@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="2px" cellspacing="1"cellpadding="1">
+        <tr>
+            <th>Header column1</th>
+            <th>Header column2</th>
+            <th>Header column3</th>
+            <th>Header column4</th>
+        </tr>
+
+        <tr>
+            <td>Row2-item1</td>
+            <td>Row2-item2</td>
+            <td rowspan="2"><h4>Row2: Nested Table 1 </h4>
+                <table border="2" >
+                    <tr>
+                        <th>Row1-Header</th>
+                        <td>item</td>
+                    </tr>
+
+                    <tr>
+                        <th>Row2-Header</th>
+                        <td>item</td>
+                    </tr>
+
+                    <tr>
+                        <th>Row3 Header</th>
+                        <td>item</td>
+                    </tr>
+                </table>
+            </td>
+            <td><br>Row2-Item4 <br>A second line <br><br></td>
+        </tr>
+
+        <tr>
+            <td>Row3-item1</td>
+            <td>Row3-item2</td>
+            <td rowspan="2">Row3-item3</td>
+        </tr>
+
+        <tr>
+            <td>Row4-item1</td>
+            <td>Row4-item2</td>
+            <td>Row4-item3</td>
+        </tr>
+    </table>
+</body>
+</html>

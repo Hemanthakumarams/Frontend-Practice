@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #a1{
+            height: 100px;
+            width: 200px;
+            border: 2px solid red;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .a2{
+
+            border: 1px solid rgb(31, 243, 52);
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            animation-name: ani;
+            position: relative;
+            animation-duration: 5s;
+            animation-timing-function: ease-in-out;
+            animation-delay: 1s;
+            animation-iteration-count: 3;
+            animation-direction: normal;
+
+        }
+
+        img{
+            border-radius: 50%;
+        }
+
+
+
+        @keyframes ani{
+            0%{
+                top: 0px;
+                left: 0px;
+
+            }
+            25%{
+                top: 0px;
+                left: 95px;
+            }
+
+            50%{
+                top: 95px;
+                left: 95px;
+            }
+
+            75%{
+                top: 95px;
+                left: 0px;
+            }
+
+            100%{
+                top: 0px;
+                left: 0px;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="a1">
+        <div class="a2">
+            <img src="C:\Users\user\OneDrive\Desktop\Frontend\file.html\download.jpeg" alt="RCB" height="40px" width="40px">
+        </div>
+        <div class="a2">
+            <a href="http:/www.t20worldcup.com/">
+                <img src="C:\Users\user\OneDrive\Desktop\Frontend\file.css\download (1).jpeg" alt="RCB" height="40px" width="40px">
+            </a>
+        </div>
+    </div>
+</body>
+</html>

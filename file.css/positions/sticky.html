@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #z{
+            border: 2px solid red;
+            height: 800px;
+            width: 700px;
+            display: flex;
+            /* justify-content: space-evenly; */
+            /* align-items: center; */
+            margin: 100px;   
+        }
+
+
+        #nav{
+            border:2px solid aqua;
+            height: 70px;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+
+            /* position sticky: it is used mostly for navbars  */
+            position: sticky;
+            top: 0px;
+            background: #554dde;
+            z-index: 0;
+
+        }
+
+        #a{
+            border: 1px solid black;
+            background: aqua;
+            height: 50px;
+            width: 50px;
+        }
+
+        #b{
+            border: 1px solid black;
+            background: aliceblue;
+            height: 50px;
+            width: 50px;
+        }
+
+        #c{
+            border: 1px solid black;
+            background: beige;
+            height: 50px;
+            width: 50px;
+
+            position: absolute;
+            top: 400px;
+            left:200px;
+            z-index: 1;
+
+            
+        }
+
+        #d{
+            border: 1px solid black;
+            background: chocolate;
+            height: 50px;
+            width: 50px;
+        }
+
+        #e{
+            border: 1px solid black;
+            background: darkblue;
+            height: 50px;
+            width: 50px;
+        }
+
+         /* position fixed: used for chat bots */
+         #chat{
+            position: fixed;
+            border: 1px solid rgb(255, 47, 210);
+            height: 50px;
+            width: 50px;
+            bottom: 20px;
+            right: 20px;
+            border-radius: 50%;
+         }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="nav"></div>
+    <div id="z">
+        <div id="a">hi</div>
+        <div id="b">hello</div>
+        <div id="c">Good ggggg ggggggg  ggg</div>
+        <div id="d">Morning</div>
+        <div id="e">!</div>
+    </div>
+
+    <div id="chat"><h3>Hiii</h3></div>
+</body>
+</html> 
