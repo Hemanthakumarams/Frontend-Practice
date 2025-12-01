@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        let array=[500,2000,2500,5000,950,490,54000,90000,200,1500];
+        console.log(array);
+        
+        let result=array.filter((x)=>{
+            return x>2000;
+        })
+        console.log(result);
+
+        let gst=result.map((y)=>{
+            return z=y-y*0.30;
+        })
+        console.log(gst);
+
+        let checkout=gst.reduce((acc,val)=>{
+            return acc+val;
+        },30)
+        console.log(checkout);
+
+        console.log(array);
+        
+        array.pop()
+        console.log(array);
+
+        array.push(333)
+        console.log(array);
+
+        array.shift()
+        console.log(array);
+
+        array.unshift(1)
+        console.log(array);
+
+        array.splice(1,4)
+        console.log(array);
+        
+    </script>
+</body>
+</html>
