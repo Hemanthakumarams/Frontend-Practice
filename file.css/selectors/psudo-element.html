@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1::after{
+            content:"!...";
+        }
+
+        h1::before{
+            content:"Hello ";
+        }
+
+        h3::first-letter{
+            color: red;
+        }
+
+        pre::first-line{
+            background:pink;
+        }
+
+        li::marker{
+            content:"❤️" ;
+        }
+
+        em::selection{
+            background: purple;
+            color: greenyellow;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>World</h1>
+    <h3>Namaskara</h3>
+    <pre>Table is a collection of rows and columns.
+Row is a horizontal representation of table.
+    column is a vertical representation of the table.
+    </pre>
+    <ol>
+        <li>after</li>
+        <li>before</li>
+        <li>first-letter</li>
+        <li>first-line</li>
+        <li>MARKER</li>
+        <li>selector</li>
+    </ol>
+    <em>em means emphesis.It is change the font style to italic.And also we change by using 
+        italic tag</em>
+</body>
+</html>

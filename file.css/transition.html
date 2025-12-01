@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            background: lightpink;
+            transition-property:height width ;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+            transition-delay: 1s;
+        }
+
+        #hr:hover{
+            height: 300px;
+            width: 300px;
+            background: lightblue;
+            border: 3px solid red;
+            border-radius: 20%;
+        }
+
+        #hr{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="hr">Hello</div>
+</body>
+</html>

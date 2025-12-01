@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            height: 300px;
+            width: 600px;
+            border: 2px solid lightblue;
+            background-image: linear-gradient(orange 0%, orange 33.33%,white 33.33% ,white 66.66%,green 66.66%,green 100%);
+            display: flex;
+            justify-content: space-evenly;
+            align-items:center;
+        }
+
+        #c2{
+            border:1px solid blue;
+            background-image:repeating-conic-gradient( blue 6%,white 10%);
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            border-left:50px;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="c2"></div>
+    </div>
+</body>
+</html>

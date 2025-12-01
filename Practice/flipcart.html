@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #bd{
+            background-color: aliceblue;
+        }
+        #nav1{
+            border: 2px solid black;
+            height: 50px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: rgb(51, 26, 217);
+            color: white;
+        }
+
+        #logo{
+            border: 1px solid red;
+            height: 50px;
+            width: 150px;
+        }
+
+        [type="search"]{
+            width: 500px;
+            height: 30px;
+            border-radius: 5px;
+        }
+
+        #menu{
+            /* border: 1px solid red; */
+            height: 50px;
+            width: 300px;
+            list-style: none;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            
+        }
+
+        #nav2{
+            border: 2px solid black;
+            height: 90px;
+            background-color: #fff;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+
+        .products{
+            /* border: 1px solid blueviolet; */
+            height: 70px;
+            width: 70px;
+            
+        }
+
+        .items{
+            border: 2px solid aqua;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .pname{
+            /* border: 1px solid orange; */
+            height: 20px;
+            width: 200px;
+        }
+
+        #nav3{
+            border: 2px solid black;
+            background-image: linear-gradient( to right,rgb(168, 156, 237),rgb(230, 61, 230) );
+            height: 130px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 20px;
+
+        }
+
+        #symbol1{
+            /* border: 3px solid black; */
+            height: 50px;
+            width: 25px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            font-weight: bolder;
+            border-radius: 4px;
+            background-color:#fff;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+        }
+
+        #symbol2{
+            /* border: 3px solid black; */
+            height: 50px;
+            width: 25px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            font-weight: bolder;
+            border-radius: 4px;
+            background-color:#fff;
+            box-shadow: 0px 0px 20px rgba(0,0,0,0.2);
+            
+        }
+
+
+        #nav4{
+            border: 2px solid black;
+            height: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .dis{
+            /* border: 1px solid red; */
+            margin-left: 10px;
+        }
+
+        .view{
+            background-color: rgba(0, 106, 255, 0.953);
+            height: 25px;
+            width: 80px;
+            color: #fff;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            border-radius: 2px;
+            margin-right: 10px;
+        }
+
+
+        #nav5{
+            border: 2px solid black;
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #fff;
+        }
+    </style>
+</head>
+<body id="bd">
+    <div id="nav1">
+        <div id="logo">
+            flipcart
+        </div>
+
+        <div>
+            <input type="search" placeholder="search for products,brands and more">
+        </div>
+
+        <div>
+            <ol id="menu">
+                <li >
+                    <select name="names" id="nm">
+                        <option value="jhon">jhon</option>
+                        <option value="jaany">jaany</option>
+                        <option value="janardahan">janardhan</option>
+                    </select>
+                </li>
+
+                <li>
+                    <select name="more" id="mr">
+                        <option value="more">more</option>
+                    </select>
+
+                    <li>cart</li>
+                </li>
+            </ol>
+        </div>
+    </div>
+
+    <div id="nav2">
+        <div class="products">
+            <div class="items">1</div>
+            <div class="pname">Mobiles</div>
+        </div>
+        <div class="products">
+            <div class="items"></div>
+            <div class="pname">Fashion</div>
+        </div>
+        <div class="products">
+            <div class="items"></div>
+            <div class="pname">Electronics</div>
+        </div>
+        <div class="products">
+            <div class="items"></div>
+            <div class="pname">Home</div>
+        </div>
+        <div class="products">
+            <div class="items"></div>
+            <div class="pname">Travel</div>
+        </div>
+        <div class="products">
+            <div class="items"></div>
+            <div class="pname">Appliances</div>
+        </div>
+        <div class="products">
+            <div class="items"></div>
+            <div class="pname">Furniture</div>
+        </div>
+        <div class="products">
+            <div class="items"></div>
+            <div class="pname">Beuty toys and more</div>
+        </div>
+        <div class="products">
+            <div class="items"></div>
+            <div class="pname">Grocery</div>
+        </div>
+    </div>
+
+    <div id="nav3">
+        <div id="symbol1"></div>
+        <div>image</div>
+        <div id="symbol2">></div>
+
+    </div>
+
+    <div id="nav4">
+        <div class="dis"><b>Discounts for you</b></div>
+        <div class="view">view all</div>
+    </div>
+
+
+    <div id="nav5">
+        <div id="symbol1"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+        <div id="symbol2">></div>
+    </div>
+
+</body>
+</html>
